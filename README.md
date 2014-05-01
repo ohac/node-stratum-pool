@@ -54,6 +54,7 @@ May be working (needs additional testing):
 * ? *Qubit* (Qubitcoin [Q2C], Myriadcoin [MYR])
 * ? *Hefty1* (Heavycoin [HVC])
 * ? *SHAvite-3* (INKcoin [INK])
+* ? *Sha1coin* (Sha1coin [SHA], Yaycoin [YAY])
 
 Not working currently:
 * *Groestl* - for Myriadcoin
@@ -82,7 +83,7 @@ npm update
 Create the configuration for your coin:
 
 Possible options for `algorithm`: *sha256, scrypt, scrypt-jane, scrypt-n, quark, x11, keccak, blake,
-skein, groestl, fugue, shavite3, hefty1, or qubit*.
+skein, groestl, fugue, shavite3, hefty1, qubit, or sha1coin*.
 
 ```javascript
 var myCoin = {
